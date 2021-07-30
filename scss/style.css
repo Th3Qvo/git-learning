@@ -1,0 +1,32 @@
+/* GLOBAL */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* SECTION: SONG */
+
+[class^="song-"] {
+    margin: 40px;
+}
+
+.song-wrapper {
+    height: auto;
+    width: fit-content;
+    border: 1px rgba(0, 0, 0, 0.611) solid;
+    border-radius: 2rem;
+    margin: 50px auto;
+}
+
+.song-title {
+    font-style: italic;
+}
